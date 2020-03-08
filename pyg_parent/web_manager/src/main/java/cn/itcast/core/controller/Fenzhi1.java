@@ -18,7 +18,7 @@ public class Fenzhi1 {
     @RequestMapping("/findAll")
     public List<Brand> findAll(){
         List<Brand> list = brandService.findAll();
-        System.out.println("分支");
+        System.out.println("分支4");
         return list;
     }
 }
