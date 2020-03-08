@@ -19,7 +19,7 @@ public class BrandController {
     public List<Brand> findAll(){
         List<Brand> list = brandService.findAll();
 		System.out.println("这是公有的代码");
-		System.out.println("这是主干的代码");
+		System.out.println("这是分支6的代码");
         return list;
     }
 }
