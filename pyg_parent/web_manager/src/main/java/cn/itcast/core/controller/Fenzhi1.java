@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/brand")
-public class Zhugan1 {
+public class Fenzhi1 {
 
     @Reference
     private BrandService brandService;
@@ -18,7 +18,7 @@ public class Zhugan1 {
     @RequestMapping("/findAll")
     public List<Brand> findAll(){
         List<Brand> list = brandService.findAll();
-        System.out.println("主干");
+        System.out.println("分支");
         return list;
     }
 }

@@ -18,6 +18,7 @@ public class Zhuganshao {
     @RequestMapping("/findAll")
     public List<Brand> findAll(){
         List<Brand> list = brandService.findAll();
+        System.out.println("这个类的代码主干比分支少了这句话");
         return list;
     }
 }
