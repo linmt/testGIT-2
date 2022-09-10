@@ -13,4 +13,5 @@
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
+  <!--测试compare合并的代码能否提交-->
 </project>
