@@ -258,4 +258,5 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+	<!-- 测试笔记本用bcompare合并代码后提交 -->
 </project>
